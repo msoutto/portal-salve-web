@@ -8,7 +8,7 @@
 
 ![High-Five Portal](https://i.imgur.com/ociZqkC.png)
 
-## Desenvolvimento
+## Development
 
 To create your own copy of it, you can just clone the repo:
 
