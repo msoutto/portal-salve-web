@@ -11,15 +11,15 @@ export default function App() {
   return (
     <div className="mainContainer">
       <div className="dataContainer">
-        <div className="header">👋 Olá Pessoal!</div>
+        <div className="header">👋 Hey Folks!</div>
 
         <div className="bio">
-          Eu sou o danicuki e já trabalhei com música, sabia? Legal, né? Conecte
-          sua carteira Ethereum wallet e me manda um tchauzinho!
+          I am souttodev and I am learning about web3 development. Cool, right? Connect
+          your Ethereum wallet and send me a high-five!
         </div>
 
         <button className="waveButton" onClick={wave}>
-          Mandar Tchauzinho 🌟
+          Send High-Five 🌟
         </button>
       </div>
     </div>
