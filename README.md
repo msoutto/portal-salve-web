@@ -1,49 +1,23 @@
 <h1 align="center">
-  Portal Tchauzinho
+  High-Five Portal
 </h1>
 
 <p align="center">
-    Um template inicial do Portal Tchauzinho com <a href="https://vitejs.dev">Vite</a> + <a href="https://reactjs.org">React</a> + <a href="https://docs.ethers.org/v5/">EthersJS</a>
+    A Portal to give HighFive's created with <a href="https://vitejs.dev">Vite</a> + <a href="https://reactjs.org">React</a> + <a href="https://docs.ethers.org/v5/">EthersJS</a>
 </p>
 
-![Portal Tchauzinho](https://i.imgur.com/ociZqkC.png)
-
-## Estrutura de pastas
-
-Nenhuma configuração ou estruturas de pastas complicada, apenas os arquivos necessários para criar seu aplicativo:
-
-```
-projeto-tchauzinho
-├── node_modules
-├── public
-│   └── vite.svg
-├── src
-│   ├── utils
-│   │   └── WavePortal.json
-│   ├── App.css
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-├── .gitignore
-├── .replit
-├── index.html
-├── package-lock.json
-├── package.json
-├── README.md
-├── replit.nix
-└── vite.config.js
-```
+![High-Five Portal](https://i.imgur.com/ociZqkC.png)
 
 ## Desenvolvimento
 
-Para criar uma cópia local do código, clone-o usando git:
+To create your own copy of it, you can just clone the repo:
 
 ```
-git clone git@github.com:w3b3d3v/projeto-tchauzinho.git
-cd projeto-tchauzinho
+git clone git@github.com:msoutto/portal-salve-web.git
+cd msoutto/portal-salve-web
 ```
 
-Adicione no seu git:
+Push to your git repo:
 
 ```
 rm -rf .git && git init && npm init
@@ -51,27 +25,27 @@ git add .
 git commit -m "Primeiro commit"
 ```
 
-Instalando dependencias
+Installing dependencies
 
 ```
 npm i
 ```
 
-Agora, você pode iniciar um servidor web local executando:
+Then, run the app locally with:
 
 ```
 npm start
 ```
 
-Em seguida, abra <http://localhost:3000> para visualizá-lo no navegador.
+Now, Vite would print in the console log the local URL to reach (likely <http://localhost:3000>) to view it in your browser.
 
-### Scripts Disponíveis
+### Available scripts
 
 In this project, you can run the following scripts:
 
-| Script        | Description                                     |
-| ------------- | ----------------------------------------------- |
-| npm run start | Executa o app localmente na porta 3000.         |
-| npm run dev   | Executa o app no modo de desenvolvimento.       |
-| npm run build | Cria o app para produção na pasta `dist`.       |
-| npm run serve | Cria uma preview para produção na pasta `dist`. |
+| Script        | Description                                    |
+| ------------- | ---------------------------------------------- |
+| npm run start | Runs the app on port 3000.                     |
+| npm run dev   | Runs the app on development mode.              |
+| npm run build | Build the app for production in folder `dist`. |
+| npm run serve | Create a production preview in folder `dist`.  |
