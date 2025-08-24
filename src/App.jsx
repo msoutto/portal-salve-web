@@ -44,7 +44,7 @@ export default function App() {
       const { ethereum } = window;
 
       if (!ethereum) {
-        alert("MetaMask found!");
+        alert("MetaMask not found!");
         return;
       }
 
